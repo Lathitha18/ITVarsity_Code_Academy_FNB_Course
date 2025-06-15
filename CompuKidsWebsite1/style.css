@@ -1,0 +1,23 @@
+.gallery img{
+   width: 100%;
+}
+
+h2{
+   font-family: Impact, fantasy;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
+}
+
+h4{
+  font-family: Impact, fantasy;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
+   color: cornflowerblue;
+}
+
+p{
+   font-family: Helvetica, sans-serif;
+   
+}
