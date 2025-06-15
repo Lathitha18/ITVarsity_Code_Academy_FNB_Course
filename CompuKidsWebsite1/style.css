@@ -3,18 +3,21 @@
 }
 
 h2{
+   color: #4169E1;
    font-family: Impact, fantasy;
    text-align: center;
    font-size: 30px;
    font-style: italic;
+   text-decoration: underline;
 }
 
 h4{
-  font-family: Impact, fantasy;
+   font-family: Impact, fantasy;
    text-align: center;
    font-size: 30px;
    font-style: italic;
-   color: cornflowerblue;
+   color:#4169E1;
+   text-decoration: underline;
 }
 
 p{
@@ -39,4 +42,19 @@ p{
 }
 #menu a:hover{
    color: #5077bd;
+}
+#contact-page a{ 
+   color: #5077bd;
+   background-color: #ffffff;
+   padding-left: 5px;
+   padding-right: 5px;
+   text-decoration: none;
+}
+
+#contact-page a:hover{
+   color: #164aac;
+   background-color: cornflowerblue;
+   padding-left: 5px;
+   padding-right: 5px;
+   text-decoration: none;
 }
