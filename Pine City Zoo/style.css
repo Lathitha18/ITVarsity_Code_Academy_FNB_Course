@@ -116,3 +116,21 @@ float: left;
  margin-top: 25px;
  height:40px;
 }
+/*============== INFO BOX FULL ==============*/
+#info-box-full{
+   text-decoration: none;
+      background: rgba(255 ,225, 255, .8);
+      width: 90%;
+      display: auto;
+      margin: auto;
+      margin-top: 12px;
+      padding: 10px;  
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align:center;
+}
