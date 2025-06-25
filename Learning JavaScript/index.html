@@ -3,41 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel= "stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div class="paragrah-1">
-    <h1>Learning JavaScript</h1>
-    <p id="paragraph-1">JavaScript is a versatile programming language used for web development.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, harum veritatis modi laudantium ab ipsa assumenda aperiam tenetur quam voluptatibus?</p>
-    </div>
+    <h1 id="heading-1"></h1>
+    <p id="paragraph-1"></p>
+    <p id="paragraph-2"></p>
 
-    <div class="paragraph-2">
-        <table>
-            <tr class="table">
-                <th>Feature</th>
-                <th>Description</th>
-                <th>Example</th>
-            </tr>
-            <tr class="table">
-                <td>Dynamic Typing</td>
-                <td>Variables can hold any type of data without explicit declaration.</td>
-                <td><code>let x = 5; x = "Hello";</code></td>
-            </tr>
-            <tr class="table">
-                <td>Event Handling</td>
-                <td>JavaScript can respond to user actions like clicks and key presses.</td>
-                <td><code>document.getElementById("myButton").addEventListener("click", function() { alert("Button clicked!"); });</code></td>
-            </tr>
-            <tr class="table">
-                <td>DOM Manipulation</td>
-                <td>JavaScript can change the structure and style of web pages dynamically.</td>
-                <td><code>document.getElementById("myElement").style.color = "red";</code></td>
-            </tr>
+    <script id="JS-DOM-manipulation-statements-and-variables">
+        var text1;
+        var text2;
+        var text3;
 
-        </table>
-    </div>
+        var numA = 5;
+        var numB = 10;
 
+        text1 = "Hello everyone!";
+        text2 = "Let's learn JavaScript together.";
+        text3 = " JavaScript is fun!";
+
+        document.getElementById("heading-1").innerHTML = (text1);
+        document.getElementById("paragraph-1").innerHTML = (text2 + text3);
+        document.getElementById("paragraph-2").innerHTML = (numA + " x "+ numB + " = "+ numA * numB);
+    </script>
+
+
+            
+    </script>
 </body>
 </html>
