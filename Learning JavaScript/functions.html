@@ -6,11 +6,17 @@
     <link rel="stlesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1 onclick="if(this.innerHTML=='JavaScript'){this.innerHTML='Is awesome'}">JavaScript Functions</h1>
+   <h1 id="heading" onclick="changeText()">JavaScript Functions
+</h1>
 
     <script>
-
-
+        function changeText() {
+     if(document.getElementById("heading").innerHTML.trim()==='JavaScript Functions'){
+        document.getElementById("heading").innerHTML='Is awesome'
+    } else {
+        document.getElementById("heading").innerHTML='JavaScript Functions'
+    }
+}
     </script>
 </body>
 </html>
